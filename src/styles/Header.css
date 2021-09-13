@@ -1,0 +1,66 @@
+:root {
+  --normalColor: white;
+  --hoverColor: rgb(248, 96, 36);
+}
+
+.bg {
+  height: 100vh;
+  width: 100%;
+  color: white;
+  font-size: 2rem;
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-position-y: -400px;
+  background-size: cover;
+  box-shadow: inset 0 0 80px 5px #000000;
+}
+
+.bg-banner {
+  height: 60vh;
+  width: 100%;
+  color: var(--normalColor);
+  font-size: 2rem;
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-position-y: -400px;
+  background-size: cover;
+  box-shadow: inset 0 0 80px 5px #000000;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textBG {
+  background-color: #00000078;
+  border: 3px solid var(--normalColor);
+  width: fit-content;
+  padding: 1rem 5rem 1rem 5rem;
+}
+
+h2 {
+  margin: 0;
+}
+
+.btn {
+  color: var(--normalColor);
+  cursor: pointer;
+  font-size: 2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.787);
+  border-color: var(--hoverColor);
+  color: var(--hoverColor);
+  transform: translateY(-10%);
+}
+
+.btnDisabled {
+  border-color: var(--hoverColor);
+  color: var(--hoverColor);
+  font-size: 2rem;
+}

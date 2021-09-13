@@ -1,0 +1,114 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.bg {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  position: relative;
+  margin: auto auto;
+  height: min-content;
+  border-radius: 5px;
+  padding: 3rem 0rem 3rem 0rem;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.096);
+  background-color: white;
+}
+
+.title {
+  margin-bottom: 2rem;
+  align-self: center;
+}
+
+input[type='text'],
+input[type='email'] {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  margin-top: 0.4rem;
+  font-size: 1rem;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+::placeholder {
+  opacity: 0.2;
+}
+
+.formRow {
+  margin: 1rem;
+}
+
+.flexRow {
+  display: flex;
+}
+
+.formInput {
+  padding: 0.4rem 1rem 0.6rem 1rem;
+}
+
+.inputText {
+  background-color: rgba(128, 128, 128, 0.103);
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px 1px rgba(128, 128, 128, 0.144);
+}
+
+.smallLabel {
+  opacity: 0.6;
+  font-size: 60%;
+}
+
+.seperateCol {
+  width: 100%;
+}
+
+.seperateCol:last-child {
+  margin-left: 1rem;
+}
+
+.radioInput label {
+  display: inline-block;
+}
+
+.radioInput label:first-child {
+  margin-bottom: 0.6rem;
+}
+
+.radioInput label:not(:first-child) {
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+}
+
+.radioInput input {
+  margin-right: 0.2rem;
+}
+
+.btnSubmit {
+  background-color: var(--main-color);
+  border: none;
+  cursor: pointer;
+  align-self: center;
+  color: white;
+  padding: 0.8rem 2rem;
+  width: 90%;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: all 0.1s ease;
+}
+
+.formFlex {
+  display: flex;
+  flex-direction: column;
+}

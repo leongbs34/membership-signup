@@ -1,0 +1,29 @@
+:root {
+  --main-color: rgb(248, 96, 36);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 1.5rem;
+}
+
+.title:after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid var(--main-color);
+  padding-top: 1.5rem;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.coloredText {
+  color: var(--main-color);
+}
